@@ -183,6 +183,11 @@ h6 {
     @media screen and (min-width: 800px) {
       .posts time + a {
         margin-left: 2rem; } }
+  .posts time + p {
+    margin-left: 1rem; }
+    @media screen and (min-width: 800px) {
+      .posts time + p {
+        margin-left: 2rem; } }
 
 .post .post-header {
   margin-bottom: 3rem; }
