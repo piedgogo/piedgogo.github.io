@@ -72,7 +72,7 @@ a {
 
 ol,
 ul {
-  margin: 0 0 1rem 1.25rem;
+  margin: 0 0 .5rem 1.25rem;
   padding: 0;
   list-style-position: outside; }
   ol ol,
