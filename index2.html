@@ -36,13 +36,13 @@
   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <script type="text/javascript">
-    window.onload = function load()
+    $(document).ready( function load()
     {
       var newSection = $("<section class='2019'> </section>")
       $('posts').append(newSection)
       $('2019').append($("<h2>2019</h2>"))
       $('2019').append($("<li>this is a test</li>"))
-    }
+    })
   </script>
   </body>
 </html>
