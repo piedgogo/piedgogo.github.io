@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>见闻录</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+  <link rel="stylesheet" href="css/highlight.css">
+  <link rel="stylesheet" href="css/journal.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+   <header class="site-header">
+      <h1>见闻录</h1>
+      <p>当“心”在思考的时候，它就是对自己说话。 --- 柏拉图</p>
+   </header>
+
+
+   <article class="posts">
+   </article>
+
+   <footer class="site-footer">
+     <span itemprop="name">by Biiigfish</span>
+   </footer>
+
+  </div>
+
+  <script src="js/highlight.pack.js"></script>
+  <script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script type="text/javascript">
+    function load()
+    {
+      var newSection = $("<section class="2019"> </section>")
+      newSection.append($("<h2>2019</h2>"))
+      $('posts').append(newSection)
+    }
+  </script>
+
+  </body>
+</html>
+
