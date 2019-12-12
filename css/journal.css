@@ -65,7 +65,8 @@ blockquote {
 a {
   border-bottom: 1px solid currentColor;
   color: currentColor;
-  text-decoration: none; }
+  text-decoration: none; 
+  margin-bottom: .4rem;}
   a:hover {
     border-bottom-color: currentColor;
     color: #686868; }
