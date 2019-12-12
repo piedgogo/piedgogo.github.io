@@ -84,7 +84,7 @@ ul {
 li {
   margin: 0; }
   li:not(last-of-type) {
-    margin-bottom: .4rem; }
+    margin-bottom: .2rem; }
 
 abbr {
   border-bottom: 1px dashed currentColor;
