@@ -106,11 +106,6 @@ code {
   padding: .125rem .25rem 0;
   background-color: #e5e5e5; }
 
-article {
-  border-bottom: 1px solid currentColor;
-  border-top: 1px solid currentColor;
-}
-
 article,
 section {
   display: block;
@@ -152,6 +147,7 @@ h6 {
 
 .site-header,
 .site-nav {
+  border-bottom: 1px solid currentColor;
   margin-bottom: 2rem; }
   .site-header h1,
   .site-nav h1 {
@@ -162,6 +158,7 @@ h6 {
   margin-right: .25rem; }
 
 .site-footer {
+  border-top: 1px solid currentColor;
   margin: 3rem 0 0;
   font-size: .8125rem; }
   .site-footer [itemprop="sameAs"] + [itemprop="sameAs"] {
