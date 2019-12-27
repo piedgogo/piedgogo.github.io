@@ -177,7 +177,7 @@ h6 {
   display: block; }
   @media screen and (min-width: 800px) {
     .posts time {
-      flex: 0 0 12rem; } }
+      flex: 0 0 9rem; } }
   .posts time + a {
     margin-left: 1rem; }
     @media screen and (min-width: 800px) {
