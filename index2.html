@@ -38,8 +38,10 @@
   <script>hljs.initHighlightingOnLoad();</script>
   <script type="text/javascript">
     $(document).ready(function(){
-      $('.posts').append("<p>Test</p>");
-      $('.posts').append("<p>Test</p>");
+      var newSection = $("<section class='2019'> </section>")
+      $('.posts').append(newSection)
+      $('.2019').append($("<h2>2019</h2>"))
+      $('.2019').append($("<li>this is a test</li>"))
     });
   </script>
   </body>
