@@ -38,20 +38,16 @@
   <script>hljs.initHighlightingOnLoad();</script>
   <script type="text/javascript">
     $(document).ready(function(){
-      var newSection = $("<section></section>");
-      newSection.append($("<h2>2019</h2>"));
-      
       var newList = $("<ol></ol>");
-      newList.append($("<li><time>Dec 27</time><p>this is a test</p></li>"));
-      newList.append($("<li><time>Dec 27</time><p>this is a test</p></li>"));
-      newList.append($("<li><time>Dec 27</time><p>this is a test</p></li>"));
-      newList.append($("<li><time>Dec 27</time><p>this is a test</p></li>"));
-      newList.append($("<li><time>Mar 10</time><a href='https://themes.gohugo.io//theme/hugo-journal/post/markdown-syntax/'>Markdown Syntax Guide</a></li>"));
-      newList.append($("<li><time>Dec 27</time><p>this is a test</p></li>"));
-      newList.append($("<li><time>Dec 27</time><p>this is a test</p></li>"));
-      newSection.append(newList);
+      newList.append($("<li><time>2019 Dec 27</time><p>this is a test</p></li>"));
+      newList.append($("<li><time>2019 Dec 27</time><p>this is a test</p></li>"));
+      newList.append($("<li><time>2019 Dec 27</time><p>this is a test</p></li>"));
+      newList.append($("<li><time>2019 Dec 27</time><p>this is a test</p></li>"));
+      newList.append($("<li><time>2019 Mar 10</time><a href='https://themes.gohugo.io//theme/hugo-journal/post/markdown-syntax/'>Markdown Syntax Guide</a></li>"));
+      newList.append($("<li><time>2019 Dec 27</time><p>this is a test</p></li>"));
+      newList.append($("<li><time>2019 Dec 27</time><p>this is a test</p></li>"));
       
-      $('.posts').append(newSection);
+      $('.posts').append(newList);
     });
   </script>
   </body>
