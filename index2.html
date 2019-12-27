@@ -38,9 +38,16 @@
   <script>hljs.initHighlightingOnLoad();</script>
   <script type="text/javascript">
     $(document).ready(function(){
-      var newSection = $("<section><h2>2019</h2><ol class="list_2019"> </ol></section>");
-      newSection.append($("<li>this is a test</li>"));
-      newSection.append($("<li>this is a test</li>"));
+      var newSection = $("<section></section>");
+      newSection.append($("<h2>2019</h2>"));
+      
+      var newList = $("<ol>2</ol>");
+      newList.append($("<li>this is a test</li>"));
+      newList.append($("<li>this is a test</li>"));
+      newList.append($("<li>this is a test</li>"));
+      newList.append($("<li>this is a test</li>"));
+      
+      newSection.append(newList);
       
       $('.posts').append(newSection);
     });
